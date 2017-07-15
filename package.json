@@ -1,0 +1,30 @@
+{
+  "name": "aeronesto-url-shortener",
+  "version": "1.0.0",
+  "description": "Pass a URL as a parameter and receive a shortened URL in the JSON response.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aeronesto/url-shortener.git"
+  },
+  "keywords": [
+    "API",
+    "aeronesto",
+    "IP",
+    "Header"
+  ],
+  "author": "Ernesto (aeronesto) Jimenez",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/aeronesto/url-shortener/issues"
+  },
+  "homepage": "https://github.com/aeronesto/url-shortener#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mongodb": "^2.1.4"
+  }
+}
